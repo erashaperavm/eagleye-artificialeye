@@ -1,0 +1,15 @@
+{
+  "camera": {
+    "index": 0,
+    "width": 1280,
+    "height": 720
+  },
+  "models": {
+    "yolo_path": "models/yolov8n.onnx",
+    "pose_path": "models/pose.onnx",
+    "midas_path": "models/midas_tiny.onnx"
+  },
+  "websocket": {
+    "uri": "ws://127.0.0.1:8080"
+  }
+}
